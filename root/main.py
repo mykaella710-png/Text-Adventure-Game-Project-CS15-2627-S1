@@ -9,6 +9,8 @@ piece_found2 = False
 piece_found3 = False
 piece_found4 = False
 piece_found5 = False
+
+print("You wake up in the entrance of a locked house. Find the code to exit.")
 while True:
     if state == "entrance":
         state = to_entrance(code)

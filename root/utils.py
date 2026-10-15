@@ -205,7 +205,6 @@ def to_library(u_door):
                         print("Invalid input, please enter a number")
                         continue
                     attempt = attempt + 1
-                    print(secret_number)
                     if p_guess > 20 or p_guess < 1:
                         print("The range is 1-20")
                     elif p_guess == secret_number:
@@ -249,7 +248,7 @@ def to_bedroom(fl, piece3):
         print("You have also found the flashlight!")
         fl = 1
     else:
-        print("You are in the bedroom and have already collected important tools")
+        print("You have already collected important tools in the bedroom")
 
     while True:
         decision = input("Do you want to exit to hallway now?\n 1. yes\n 2. no\n\n Choice: ")
